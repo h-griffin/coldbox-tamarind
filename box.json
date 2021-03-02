@@ -35,7 +35,8 @@
         "cbvalidation":"modules/cbvalidation/",
         "redirectBack":"modules/redirectBack/",
         "verify-csrf-interceptor":"modules/verify-csrf-interceptor/",
-        "cfmigrations":"modules/cfmigrations/"
+        "cfmigrations":"modules/cfmigrations/",
+        "cbjavaloader":"modules/cbjavaloader/"
     },
     "dependencies":{
         "coldbox":"^6.0.0",
@@ -45,7 +46,8 @@
         "BCrypt":"^2.5.0",
         "cbvalidation":"^2.2.0",
         "redirectBack":"^1.2.2",
-        "verify-csrf-interceptor":"^2.0.0"
+        "verify-csrf-interceptor":"^2.0.0",
+        "cbjavaloader":"^2.0.0+49"
     },
     "scripts":{},
     "cfmigrations":{

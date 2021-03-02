@@ -1,15 +1,11 @@
 {
     "app":{
-        "cfengine":"lucee@5.3.6+61",
+        "cfengine":"lucee@5",
         "libDirs":"lib/"
     },
     "web":{
         "rewrites":{
             "enable":true
-        },
-        "http":{
-            "port":56061
         }
-    },
-    "name":"cbox1"
+    }
 }

@@ -79,6 +79,7 @@ component {
 
 		// module setting overrides
 		moduleSettings = {
+			quick : { defaultGrammar = "MySQLGrammar@qb"}, // << new
 			cbauth : { userServiceClass : "User" },
 			cbguard : { authenticationOverrideEvent : "sessions.new", authorizationOverrideEvent : "sessions.new" }
 		};
